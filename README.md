@@ -1,5 +1,7 @@
-AI vs AI (Pentest App)
+*AI vs AI (Pentest App)*
+
 Installation & Usage Guide
+
 Prerequisites
 Windows 10/11 (works on macOS/Linux too with shell adjustments)
 Python 3.11+ — download from python.org. During install, check "Add Python to PATH".
