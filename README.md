@@ -3,7 +3,8 @@
 **Installation & Usage Guide**
 
 **Prerequisites**
-Windows 10/11 (works on macOS/Linux too with shell adjustments)
+
+Windows 10/11 (workson macOS/Linux too with shell adjustments)
 
 Python 3.11+ — download from python.org. During install, check "Add Python to PATH".
 
@@ -12,11 +13,13 @@ At least one LLM API key (Anthropic, OpenAI, or compatible). For autonomous mode
 Step-by-Step Install
 
 *Download the zipped folder*
+
 Unzip the folder and make sure you see all the files below. 
 
 (app.py, connectors.py, mutations.py, judge.py, runner.py, conversation.py, autonomous.py, knowledge.py, pyrit_integration.py, garak_integration.py, requirements.txt, setup.ps1, run.ps1).
 
 *Allow PowerShell scripts (one-time)*
+
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 Run setup
