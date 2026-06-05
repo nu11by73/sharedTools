@@ -10,19 +10,19 @@ Python 3.11+ — download from python.org. During install, check "Add Python to 
 
 At least one LLM API key (Anthropic, OpenAI, or compatible). For autonomous mode you'll want two (target + attacker) — three is best (+ judge).
 
-Step-by-Step Install
+***Step-by-Step Install***
 
-*Download the zipped folder*
+***Download the zipped folder***
 
 Unzip the folder and make sure you see all the files below. 
 
 (app.py, connectors.py, mutations.py, judge.py, runner.py, conversation.py, autonomous.py, knowledge.py, pyrit_integration.py, garak_integration.py, requirements.txt, setup.ps1, run.ps1).
 
-*Allow PowerShell scripts (one-time)*
+***Allow PowerShell scripts (one-time)***
 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-Run setup
+***Run setup***
 
 *powershell*
 
@@ -31,9 +31,10 @@ Run setup
 This creates the venv, installs dependencies, and optionally installs garak/PyRIT.
 
 
-Launch the app
+***Launch the app***
 
 *powershell*
+
 .\run.ps1
 
 Browser opens at http://localhost:8501.
