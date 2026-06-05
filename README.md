@@ -1,31 +1,36 @@
-*AI vs AI (Pentest App)*
+**AI vs AI (Pentest App)**
 
-Installation & Usage Guide
+**Installation & Usage Guide**
 
-Prerequisites
+**Prerequisites**
 Windows 10/11 (works on macOS/Linux too with shell adjustments)
+
 Python 3.11+ — download from python.org. During install, check "Add Python to PATH".
+
 At least one LLM API key (Anthropic, OpenAI, or compatible). For autonomous mode you'll want two (target + attacker) — three is best (+ judge).
+
 Step-by-Step Install
-Create the project folder
 
-powershell
-mkdir C:\Users\YourName\pentest-app
-cd C:\Users\YourName\pentest-app
-Create all the files above. Copy each code block into a file with the matching name (app.py, connectors.py, mutations.py, judge.py, runner.py, conversation.py, autonomous.py, knowledge.py, pyrit_integration.py, garak_integration.py, requirements.txt, setup.ps1, run.ps1).
+*Download the zipped folder*
+Unzip the folder and make sure you see all the files below. 
 
-Allow PowerShell scripts (one-time)
+(app.py, connectors.py, mutations.py, judge.py, runner.py, conversation.py, autonomous.py, knowledge.py, pyrit_integration.py, garak_integration.py, requirements.txt, setup.ps1, run.ps1).
 
-powershell
+*Allow PowerShell scripts (one-time)*
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
 Run setup
 
-powershell
+*powershell*
+
 .\setup.ps1
+
 This creates the venv, installs dependencies, and optionally installs garak/PyRIT.
+
 
 Launch the app
 
-powershell
+*powershell*
 .\run.ps1
+
 Browser opens at http://localhost:8501.
