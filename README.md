@@ -14,6 +14,8 @@ At least one LLM API key (Anthropic, OpenAI, or compatible). For autonomous mode
 
 ***Download the zipped folder***
 
+Download: pentest-app.zip
+
 Unzip the folder and make sure you see all the files below. 
 
 (app.py, connectors.py, mutations.py, judge.py, runner.py, conversation.py, autonomous.py, knowledge.py, pyrit_integration.py, garak_integration.py, requirements.txt, setup.ps1, run.ps1).
