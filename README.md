@@ -14,7 +14,7 @@ At least one LLM API key (Anthropic, OpenAI, or compatible). For autonomous mode
 
 ***Download the zipped folder***
 
-Download: pentest-app.zip
+Download: [pentest-app.zip](https://github.com/nu11by73/Ag-RedPen/raw/refs/heads/main/pentest-app.zip)
 
 Unzip the folder and make sure you see all the files below. 
 
